@@ -1,0 +1,392 @@
+/* Universal Start */
+*{
+    padding:0 ;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Universal End */
+/* Container Start */
+.container{
+    width: 1240px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/* Container End */
+/* Menu Section Start */
+.header-section{
+    background-color: #fff;
+}
+.menu{
+    text-align: center;
+  
+}
+.menu ul li {
+	display: inline-block;
+    position: relative;
+
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #0b2850;
+	background-color: #41d9fa;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 10px;
+    transition: .4s;
+  
+ 
+}
+.menu ul li a::before {
+	content: "";
+	width: 0;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	left: 15%;
+	
+	bottom: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.menu ul li a:hover::before {
+	visibility: visible;
+	opacity: 1;
+	width: 65%;
+}
+.menu ul li a:hover{
+    background-color: #eef9fa;
+    color: #6db8cc;
+}
+/* Menu Section End */
+/* Banner Section Start */
+.banner-section{
+    background-color: #3accf9;
+    padding: 150px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.banner-section h2 {
+	color: hsl(186, 66%, 94%);
+	padding: 10px 0;
+}
+.banner-section h1{
+    color:hsl(186, 66%, 94%) ;
+    font-size: 50px;
+    padding: 15px 0;
+    
+}
+.banner-section button {
+	border: none;
+	background-color: #fefbfc;
+	padding: 18px 22px;
+	border-radius: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+  
+   
+}
+.banner-section a {
+	text-decoration: none;
+	color: #cbd0d1;
+	font-size: 18px;
+    
+}
+.banner-section button span{
+    margin-right: 10px;
+    font-size: 18px;
+    color: #cbd0d1;
+}
+.banner-section button::before {
+    content: "";
+    width:0%;
+    height: 100%;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transition: .4s;
+}
+.banner-section button:hover::before{
+    width: 100%;
+}
+.banner-section button:hover a{
+    color: #fff;
+}
+.banner-section button:hover span{
+    color: #fff;
+}
+/* Banner Section End */
+/*About Section Start*/
+.about{
+    text-align: center;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.about P{
+    font-weight: 400;
+}
+/*About Section End*/
+/* Image Section Start */
+.all-img {
+	padding-top: 100px;
+	text-align: center;
+ 
+  
+}
+.image-top{
+    overflow: hidden;
+}
+.image-bottom {
+	padding-top: 15px;
+   
+}
+
+.all-img .one{
+    transition: .4s;
+    overflow: hidden;
+ 
+}
+.all-img .one img{
+    transition: .4s;
+    overflow: hidden;
+}
+
+.all-img .two{
+    transition: .4s;
+    overflow: hidden;
+
+}
+.all-img .two img{
+    transition: .4s;
+  
+
+}
+
+.all-img .two img {
+	width: 285.2px;
+	height: 213.9px;
+  ;
+}
+.all-img .three{
+    transition: .4s;
+    overflow: hidden;
+    
+  
+}
+.all-img .three img{
+    transition: .4s;
+  
+    
+  
+}
+.all-img .four{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .four img{
+    transition: .4s;
+}
+.all-img .five{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .five img{
+    transition: .4s;
+}
+.all-img .six{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .six img{
+    transition: .4s;
+}
+.all-img .seven{
+    transition: .4s;
+    overflow: hidden;
+    
+}
+.all-img .seven img{
+    transition: .4s;
+    
+}
+
+.all-img .eight{
+    transition: .4s;
+    overflow: hidden;
+}
+.all-img .eight img{
+    transition: .4s;
+}
+.main {
+	display: inline-block;
+	width: 23%;
+	margin-right: 21px;
+    
+}
+
+.all-img .five img {
+	width: 285.2px;
+	height: 214.517px;
+   
+}
+.all-img .one img:hover{
+    transform: rotate(360deg);
+}
+.all-img .two img:hover{
+    transform: rotate(30deg);
+    
+   
+    
+}
+.all-img .three img:hover{
+    transform: rotate(-30deg)  ;
+    
+}
+.all-img .four img:hover{
+    transform: rotate(-30deg) scale(1.2);
+   
+}
+.all-img .five img:hover{
+    transform: rotate(30deg) scale(1.2);
+}
+.all-img .six img:hover{
+    transform: rotate(360deg);
+}
+.all-img .seven img:hover{
+    transform: rotate(3deg) scale(1.3);
+}
+.all-img .eight img:hover{
+    transform: rotate(-3deg) scale(1.3);
+}
+/* img section end */
+.step-all{
+    text-align: center;
+}
+.step-all h1 {
+	padding-top: 150px;
+	font-size: 30px;
+}
+.step-all p {
+	padding-top: 15px;
+
+    line-height: 30px;
+    color: #bcbdc4;
+}
+/*  */
+/* btn start */
+.btn-all {
+	padding: 18px;
+	text-align: center;
+	display: inline-block;
+}
+button{
+    border: none;
+}
+.inline {
+
+    text-align: center;
+}
+
+.btn-1{
+border: none;
+
+display: inline-block;
+
+}
+.btn-1 a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #000000;
+	padding: 17px 20px;
+	display: inline-block;
+	font-size: 20px;
+}
+.btn-2 {
+	border: none;
+	display: inline-block;
+	transition: .4s;
+	margin: 0 450px;
+
+   
+}
+.btn-2 a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #000000;
+    padding: 17px 20px;
+    display: inline-block;
+    font-size: 20px;
+    transition: .4s;
+}
+.btn-3{
+border: none;
+display: inline-block;
+transition: .4s;
+
+}
+.btn-3 a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #000000;
+	padding: 17px 20px;
+    display: inline-block;
+    font-size: 20px;
+  
+}
+
+ .btn-1{
+    transform: rotate(-50deg);
+    transition: .4s;
+   
+  
+} 
+ .btn-1:hover{
+    transform: rotate(0deg) scale(1.2);
+   
+   
+}
+.btn-1:hover a{
+    background-color: #3accf9;
+}  
+.btn-2:hover{
+    transform: scale(1.3);
+   
+   
+}
+.btn-2:hover a{
+    background-color: #3accf9;
+    
+}
+.btn-3{
+    transform: rotate(50deg);
+    transition: .4s;
+  
+}
+.btn-3:hover{
+    transform: rotate(0deg) scale(1.2);
+   
+   
+}
+.btn-3:hover a{
+    background-color: #3accf9;
+} 
+/* Footer start */
+footer{
+    background-color: #2e2f31;
+}
+footer p {
+	text-align: center;
+	color: #ddd;
+	padding: 18px 0px;
+	margin-top: 8px;
+}
+/* Footer end */
